@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioToggle.Windows.Forms", "AudioToggle.Windows.Forms\AudioToggle.Windows.Forms.csproj", "{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6C64ACC7-D38B-4FCF-ADD7-131B2E6B06C3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreAudio.Net", "..\CoreAudio.Net\CoreAudio.Net\CoreAudio.Net.csproj", "{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{293069EE-C76A-4FF5-9AEE-AAC9C0C168E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0C0F7142-DEF4-418A-84BB-8BED1F5C22BC}.Release|Win32.ActiveCfg = Release|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57CA3D5D-AF07-4336-A7B1-B5D2403666FE} = {293069EE-C76A-4FF5-9AEE-AAC9C0C168E6}
+	EndGlobalSection
+EndGlobal
